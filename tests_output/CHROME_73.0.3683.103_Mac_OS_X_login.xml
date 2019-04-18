@@ -1,13 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
             failures="0"
-            tests="1">
+            tests="2">
 
   <testsuite name="login"
     errors="0" failures="0" hostname="" id="" package="login" skipped="0"
-    tests="1" time="7.006" timestamp="">
+    tests="2" time="20.68" timestamp="">
   
-    <testcase name="Composing an entry" classname="login" time="7.006" assertions="4">
+    <testcase name="SignUp, signIn, and username taken" classname="login" time="14.87" assertions="8">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Composing an entry" classname="login" time="5.817" assertions="4">
 
     
 

@@ -46,7 +46,10 @@ var customCommands = {
             .click('@signUpButton')
             .api.pause(1000)
         this
-            .api.getAlertText(console.log)
+            .api.getAlertText((result)=>{
+                this.verify.ok(result.value === "There was a problem signing you up. please try again", "Checking for an error message on sign up.")
+            })
+            .acceptAlert()
         this
         return this
     },
@@ -70,6 +73,7 @@ var customCommands = {
             .pause(1000)
             .waitForElementPresent('@previousEntries')
             .verify.containsText('@entry', text1, 'Entry Successful')
+        return this
     },
 }
 
