@@ -5,9 +5,11 @@
 
   <testsuite name="login"
     errors="0" failures="0" hostname="" id="" package="login" skipped="0"
-    tests="2" time="20.68" timestamp="">
+    tests="2" time="10.01" timestamp="">
   
-    <testcase name="SignUp, signIn, and username taken" classname="login" time="14.87" assertions="8">
+    <testcase name="SignUp, signIn, and username taken" classname="login" time="7.631" assertions="9">
+
+    
 
     
 
@@ -26,7 +28,9 @@
     
     </testcase>
   
-    <testcase name="Composing an entry" classname="login" time="5.817" assertions="4">
+    <testcase name="Composing an entry" classname="login" time="2.376" assertions="5">
+
+    
 
     
 
